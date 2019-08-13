@@ -1,0 +1,40 @@
+{
+  "name": "rdi-react-time",
+  "version": "1.0.0",
+  "description": "react time",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "npx jest",
+    "build": "NODE_ENV=production npx webpack-cli"
+  },
+  "keywords": [
+    "time",
+    "autoupdate",
+    "react",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochnyak-d-i/rdi-react-time.git"
+  },
+  "author": "Rochnyak Dmitriy",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.8.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-test-renderer": "^16.9.0",
+    "webpack": "^4.39.1"
+  }
+}
